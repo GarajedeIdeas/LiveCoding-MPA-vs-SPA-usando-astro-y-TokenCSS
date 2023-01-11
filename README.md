@@ -1,6 +1,6 @@
 # 🚀 Garaje Live coding: MPA vs SPA usando astro y TokenCSS
 
-## Por Nadia Ujovich 👩🏻 💻 Fullstack & Java Developer
+## Por [Nadia Ujovich](https://www.linkedin.com/in/nadiaujovich/) 👩🏻 💻 Fullstack & Java Developer
 
 # [Astro docs](https://docs.astro.build/es/getting-started/)
 
