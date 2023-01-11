@@ -1,0 +1,22 @@
+.advice-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: blue.6;
+    border-radius: md;
+    padding: sm;
+    margin: sm;
+    box-shadow: default;
+  }
+  
+  label{
+    padding: sm;
+    margin: sm;
+  }
+  
+  button{
+    font-family: mono;
+    border-color: blue.2;
+    border-radius: sm;
+  }

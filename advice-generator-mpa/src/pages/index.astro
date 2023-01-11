@@ -1,0 +1,40 @@
+---
+import AdviceGenerator from "../components/AdviceGenerator";
+import getAdvice from "../getAdvice";
+// Código JS que corre en el servidor
+const advice = await getAdvice()
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<h1>Advice Generator app</h1>
+		<AdviceGenerator advice={advice} client:load />
+	</body>
+</html>
+
+<style>
+	* {
+		padding: 0;
+		margin: 0;
+	}
+
+	:root {
+		font-family: mono;
+		min-height: screen;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+</style>
